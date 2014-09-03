@@ -19,7 +19,7 @@ module.exports = function(grunt){
 ```
 
 You may override any of the default configuration by passing another object as the second parameter to
-cornerstone-grunt. (replaces old gruntconfig.json method)
+cornerstone-grunt.
 
 ```javascript
 var config = {
@@ -63,9 +63,9 @@ The following tasks are set up by cornerstone-grunt
 
 ###Main Tasks
 
-- `grunt`  default action
+- `grunt`
   - `dev`
-- `grunt prod` action for the Build on Commit, minifies and runs unit tests
+- `grunt prod` default action, minifies and runs unit tests
   - `jshint`
   - `coffeelint`
   - `concurrent:test`
