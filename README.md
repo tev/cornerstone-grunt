@@ -114,14 +114,11 @@ The following tasks are set up by cornerstone-grunt
 - `coffee`  Compile CoffeeScript files into JavaScript
 - `connect`  Start a connect web server
 - `concurrent`  Run grunt tasks concurrently
-- `hub`  Run multiple grunt projects
 - `newer`  Run a task with only those source files that have been modified
 - `newer-clean`  Remove cached timestamps
 - `ngAnnotate`  Annotate AngularJS scripts for minification
-- `rev`  Prefix static asset file names with a content hash
 - `karma`  run karm
 - `shell`  Run shell commands
-- `serve`  Custom task
 
 ###Custom Tasks
 
